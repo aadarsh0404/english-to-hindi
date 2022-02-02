@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(to right, blue, pink);
+}
+
+.FormData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vmax;
+    height: 95vmin;
+    position: absolute;
+    font-family: cursive;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#English{
+    border: 1px solid lightgray;
+    width: 50vw;
+    padding: 2rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.25s;
+    font-size: large;
+    font-family: inherit;
+}
+
+#English:hover{
+    border: 3px solid lightgray;
+    outline: none;
+}
+
+.btn-submit{
+    margin-top: 2rem;
+    width: 50vw;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgb(64, 224, 171);
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    transition: all 0.5s;
+    font-family: inherit;
+}
+
+.btn-submit:hover{
+    background-color: rgb(44, 160, 148);
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .FormData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30% 25%;
+        width: 50%;
+    }
+}
